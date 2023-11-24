@@ -1,26 +1,33 @@
 form {
     text-align: center;
-    margin-top: 300px;
+    margin-top: 250px;
 }
 
 #srch_bar {
+    padding-left: 20px;
     height: 36px;
     width: 350px;
-    border-color:darkgray;
-    border-style:ridge;
+    background-color:white;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
     font-size: medium;
     font-style: normal;
 }
 #srch_bttn {
     height: 36px;
     width: 125px;
-    border-color:darkgray;
-    border-style: ridge;
+    background-color:white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
     font-size: medium;
     font-style: normal;
 }
 
 a[href="index.html"] {
-    margin-left: 1200px;
+    margin-left: 1150px;
     font-size: 20px;
 }
