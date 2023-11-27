@@ -7,9 +7,12 @@
     <body>
         <a href="index.html">Google Search</a>
         
-        <form action="https://images.google.com">
-            <input id="srch_bar" type="text" name="q"><br/><br/>
-            <input id="srch_bttn" type="submit" value="Image Search">
-        </form>
+        <form action="https://www.google.com/search" method="get">
+            <h1>Google Images</h1>
+            <input id="srch_bar" type="text" name="q" placeholder="Search in Google Images">
+            <br/><br/>
+            <input type="hidden" name="tbm" value="isch">
+            <input id="srch_bttn" type="submit" value="Search">
+          </form>
     </body>
 </html>

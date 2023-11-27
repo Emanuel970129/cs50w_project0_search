@@ -1,6 +1,11 @@
 form {
     text-align: center;
-    margin-top: 250px;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    color: blue;
 }
 
 #srch_bar {
@@ -18,7 +23,8 @@ form {
 #srch_bttn {
     height: 36px;
     width: 125px;
-    background-color: white;
+    background-color: blue;
+    color: white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -28,9 +34,9 @@ form {
 }
 a[href="image_search.html"] {
     margin-left: 1150px;
-    font-size: 20px;
+    font-size: 21px;
 }
 a[href="advance_search.html"] {
     margin-left: 1150px;
-    font-size: 20px;
+    font-size: 21px;
 }
