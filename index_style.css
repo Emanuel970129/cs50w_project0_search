@@ -22,7 +22,7 @@ h1 {
 }
 #srch_bttn {
     height: 36px;
-    width: 125px;
+    width: 140px;
     background-color: blue;
     color: white;
     border-top-left-radius: 5px;
@@ -32,6 +32,20 @@ h1 {
     font-size: medium;
     font-style: normal;
 }
+#lucky_bttn {
+    margin-left: 20px;
+    height: 36px;
+    width: 140px;
+    background-color: blue;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: medium;
+    font-style: normal;
+}
+
 a[href="image_search.html"] {
     margin-left: 1150px;
     font-size: 21px;
